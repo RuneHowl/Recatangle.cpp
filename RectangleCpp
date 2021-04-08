@@ -1,0 +1,58 @@
+// Rectangle.cpp
+using namespace std;
+class Rectangle
+{
+   public: 
+   void setLength (double);
+   void setWidth (double);
+   double getLength;
+   double getWidth;
+   void calculateArea();
+   void calculatePerimeter();
+      // Declare public methods here
+   private:	
+   double length;
+   double width;
+      // Create length and width here
+      length = 0.0;
+      width = 0.0;
+}; 
+
+void Rectangle::setLength(double len)
+{
+   length = len;
+}
+
+void Rectangle::setWidth(double wid)
+{
+   width = wid;
+   // write setWidth here
+}
+
+double Rectangle::getLength()
+{
+  return length;
+   // write getLength here
+}
+
+double Rectangle::getWidth()
+{
+  return width;
+   // write getWidth here
+}
+   
+double Rectangle::calculateArea()
+{
+  area = length * width;
+  calculateArea();
+  return; 
+   // write calculateArea here
+}
+
+double Rectangle::calculatePerimeter()
+{ 
+  perimeter = (2*(length * width));
+  calculatePerimeter();
+  return;
+   // write calculatePerimeter here
+}
