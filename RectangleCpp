@@ -51,7 +51,7 @@ double Rectangle::calculateArea()
 
 double Rectangle::calculatePerimeter()
 { 
-  perimeter = (2*(length * width));
+  perimeter = ((2 * length) + (2 * width));
   calculatePerimeter();
   return;
    // write calculatePerimeter here
